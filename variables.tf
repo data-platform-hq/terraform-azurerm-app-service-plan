@@ -32,5 +32,5 @@ variable "os_type" {
 variable "sku_name" {
   type        = string
   description = "The SKU for the plan"
-  default     = "P1v2"
+  default     = "P1v3"
 }
