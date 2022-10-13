@@ -25,27 +25,25 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [azurerm_app_service_plan.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service_plan) | resource |
+| [azurerm_service_plan.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/service_plan) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_env"></a> [env](#input\_env) | The prefix which should be used for all resources in this environment | `string` | n/a | yes |
-| <a name="input_kind"></a> [kind](#input\_kind) | Kind of App Service Plan | `string` | `"Linux"` | no |
 | <a name="input_location"></a> [location](#input\_location) | The Azure Region in which all resources in this example should be created. | `string` | n/a | yes |
+| <a name="input_os_type"></a> [os\_type](#input\_os\_type) | OS type: Windows, Linux, or WindowsContainer | `string` | `"Linux"` | no |
 | <a name="input_project"></a> [project](#input\_project) | Project/stream name (e.g. datalake) | `string` | n/a | yes |
-| <a name="input_reserved"></a> [reserved](#input\_reserved) | Reserved App Service Plan | `bool` | `true` | no |
 | <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | The Azure Region in which all resources in this example should be created. | `string` | n/a | yes |
-| <a name="input_sku_size"></a> [sku\_size](#input\_sku\_size) | Size SKU of App Service Plan | `string` | `"P1v2"` | no |
-| <a name="input_sku_tier"></a> [sku\_tier](#input\_sku\_tier) | Tier SKU of App Service Plan | `string` | `"PremiumV3"` | no |
+| <a name="input_sku_name"></a> [sku\_name](#input\_sku\_name) | The SKU for the plan | `string` | `"P1v3"` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | list of tags | `map(string)` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_app_service_plan_id"></a> [app\_service\_plan\_id](#output\_app\_service\_plan\_id) | Azure Wep App Service Plan Name |
+| <a name="output_service_plan_id"></a> [service\_plan\_id](#output\_service\_plan\_id) | The ID of the Service Plan |
 <!-- END_TF_DOCS -->
 
 ## License
