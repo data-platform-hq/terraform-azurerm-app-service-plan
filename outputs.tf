@@ -1,5 +1,5 @@
-output "app_service_plan_id" {
-  value       = azurerm_app_service_plan.this.id
-  description = "Azure Wep App Service Plan Name"
+output "service_plan_id" {
+  value       = azurerm_service_plan.this.id
+  description = "The ID of the Service Plan"
   sensitive   = false
 }
