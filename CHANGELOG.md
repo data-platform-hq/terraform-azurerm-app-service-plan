@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-service-plan/compare/v1.1.0...v1.2.0) (2022-10-13)
+
+
+### Features
+
+* use P1v3 SKU by default ([2ea6827](https://github.com/data-platform-hq/terraform-azurerm-service-plan/commit/2ea6827e6035fdeb59ebcff736413e2da0c81d57))
+
 # [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-app-service-plan/compare/v1.0.0...v1.1.0) (2022-10-13)
 
 
