@@ -23,26 +23,14 @@ variable "tags" {
   description = "list of tags"
 }
 
-variable "kind" {
+variable "os_type" {
   type        = string
-  description = "Kind of App Service Plan"
+  description = "OS type: Windows, Linux, or WindowsContainer"
   default     = "Linux"
 }
 
-variable "reserved" {
-  type        = bool
-  description = "Reserved App Service Plan"
-  default     = true
-}
-
-variable "sku_tier" {
+variable "sku_name" {
   type        = string
-  description = "Tier SKU of App Service Plan"
-  default     = "PremiumV3"
-}
-
-variable "sku_size" {
-  type        = string
-  description = "Size SKU of App Service Plan"
+  description = "The SKU for the plan"
   default     = "P1v2"
 }
