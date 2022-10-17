@@ -43,7 +43,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_service_plan_id"></a> [service\_plan\_id](#output\_service\_plan\_id) | The ID of the Service Plan |
+| <a name="output_id"></a> [id](#output\_id) | The ID of the Service Plan |
 <!-- END_TF_DOCS -->
 
 ## License
