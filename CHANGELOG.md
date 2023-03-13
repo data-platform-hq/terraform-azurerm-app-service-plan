@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-service-plan/compare/v1.3.0...v1.4.0) (2023-03-13)
+
+
+### Features
+
+* add site-scaling feature ([e03ff1b](https://github.com/data-platform-hq/terraform-azurerm-service-plan/commit/e03ff1bcd6fc378a50b3f03a90e58066af2ae0d8))
+
 # [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-service-plan/compare/v1.2.0...v1.3.0) (2022-10-17)
 
 
