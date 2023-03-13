@@ -34,3 +34,15 @@ variable "sku_name" {
   description = "The SKU for the plan"
   default     = "P1v3"
 }
+
+variable "per_site_scaling_enabled" {
+  type        = bool
+  default     = false
+  description = "Enable per site scaling"
+}
+
+variable "worker_count" {
+  type        = number
+  default     = null
+  description = "Number of workers"
+}

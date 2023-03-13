@@ -34,10 +34,12 @@ No modules.
 | <a name="input_env"></a> [env](#input\_env) | The prefix which should be used for all resources in this environment | `string` | n/a | yes |
 | <a name="input_location"></a> [location](#input\_location) | The Azure Region in which all resources in this example should be created. | `string` | n/a | yes |
 | <a name="input_os_type"></a> [os\_type](#input\_os\_type) | OS type: Windows, Linux, or WindowsContainer | `string` | `"Linux"` | no |
+| <a name="input_per_site_scaling_enabled"></a> [per\_site\_scaling\_enabled](#input\_per\_site\_scaling\_enabled) | Enable per site scaling | `bool` | `false` | no |
 | <a name="input_project"></a> [project](#input\_project) | Project/stream name (e.g. datalake) | `string` | n/a | yes |
 | <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | The Azure Region in which all resources in this example should be created. | `string` | n/a | yes |
 | <a name="input_sku_name"></a> [sku\_name](#input\_sku\_name) | The SKU for the plan | `string` | `"P1v3"` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | list of tags | `map(string)` | n/a | yes |
+| <a name="input_worker_count"></a> [worker\_count](#input\_worker\_count) | Number of workers | `number` | `null` | no |
 
 ## Outputs
 
